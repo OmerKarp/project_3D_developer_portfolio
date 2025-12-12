@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  bar_ilan,
+  dcentralab,
+  school,
+  crypto_jungle,
   carrent,
   jobit,
   tripguide,
@@ -42,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "BlockChain Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Solidity Programmer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web3 Enthusiast",
     icon: creator,
   },
 ];
@@ -116,55 +116,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Applied Mathematics Degree",
+    company_name: "Bar-Ilan University",
+    icon: bar_ilan,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2022 - Aug 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed 144 academic credits in Applied Mathematics with an 82 average at Bar-Ilan University.",
+      "Built 30+ efficient algorithms for dynamic programming, pathfinding and optimization problems.",
+      "I studied many areas in math, computer science, physics, statistics, probability and related subjects.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Blockchain Expert Certificate",
+    company_name: "Crypto Jungle & BDCC",
+    icon: crypto_jungle,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024 - Nov 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed a 10-month course on Blockchain and Crypto technologies, led by top industry figures.",
+      "Researched and reported a 24-page document analyzing company fundamentals in the industry.",
+      "Got a perfect final score of 100 on both the test and research assignments – the highest in the class.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Physics & Computer Science Bagrut",
+    company_name: "Shimon Ben Zvi High School",
+    icon: school,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2020 - Sep 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Scored 100 in mathematics and specialized in Physics and Computer Science in the last 4 years.",
+      "I volunteered to teach students in 9th-12th grade mathematics, physics and computer science for free.",
+    ],
+  },
+  {
+    title: "Junior Backend & Blockchain Developer",
+    company_name: "DcentraLab",
+    icon: dcentralab,
+    iconBg: "#383E56",
+    date: "Feb 2025 - Present",
+    points: [
+      "Refactored the smart contracts and backend repositories to increase the product efficiency by +40%.",
+      "Responsible for developing, maintaining, and testing functions in Python, Solidity and JavaScript.",
+      "Optimized AWS Lambda functions and DB operations, leading to saving company time & money.",
+      "Worked with over 900 AWS Lambda functions, 40+ S3 buckets, and 150+ large database tables.",
     ],
   },
 ];
@@ -198,46 +194,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Last Tank Standing",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A fully working game in 1 file with Python using PyGame, I built the whole game without using AI, filled it with music, UI, animations, sandbox and level design tools and more.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Game Design",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Git",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/OmerKarp/Last_Tank_Standing/",
   },
   {
-    name: "Job IT",
+    name: "LUCK Token",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Fully working casino based on my token 'LUCK', with smart contracts deployed on the Ethereum testnet, integrated with Chainlink VRF to ensure randomness in casino games.",
     tags: [
       {
-        name: "react",
+        name: "Solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/OmerKarp/LuckToken/",
   },
   {
     name: "Trip Guide",
